@@ -1,0 +1,16 @@
+{
+  "name": "block_chain",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "yeongbba <yeongmolee2@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc-watch --onSuccess \" node dist/index.js\" "
+  },
+  "devDependencies": {
+    "tsc-watch": "^4.2.9"
+  },
+  "dependencies": {
+    "typescript": "^4.0.3"
+  }
+}
